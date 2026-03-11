@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Codigo utilizado para redimensionar imagem automaticas em site de acordo com a os pixel da tela</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+</body
+
+    <h1>Codigo utilizado para adcionar links externos ou internos exemplo um link direto por yt, instagram etc ou uma 2 pagina pro seu site</h1>
+    <a href="Link" target="_blank" rel=external ></a>
+
+    <h1>codigo utilizado para abreviações</h1> 
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+    <h1>Codigo utilizado para citações</h1>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <h1>Codigo utilizado para linkar paginas de codigo uma na outra</h1>
+    <link rel="stylesheet" href="style.css">
+
+    <h1>Codigo para colocar audio</h1>
+    <h2>Reproduzindo Áudio</h2>
+    <audio src="Mídias/happy-mistake.mp3" controls autoplay></audio>
+    <!-- MP3 WAV OGG -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="Mídias/guanacast-33.mp3" type="audio/mpeg">
+        <source src="Mídias/guanacast-33.ogg" type="audio/ogg">
+        <source src="Mídias/guanacast-33.mp3" type="audio/wav">
+    </audio> 
+    <h1>Codigo para colocar video</h1>
+    <video src="mídias/meu-video.mp4" width="500" controls></video>
+
+     <video width="500" poster="imagens/limoes-capa.png" controls>
+        <source src="mídias/meu-video.mp4" type="video/mp4">
+        <source src="mídias/meu-video.m4v" type="video/m4v">
+        <source src="mídias/meu-video.webm"type="video/webm">
+        <source src="mídias/meu-video.ogv" type="video/ogg">
+    </video>
+</body>
+</html>
